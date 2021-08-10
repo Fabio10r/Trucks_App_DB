@@ -11,9 +11,9 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 > Ness - “Ok, I understand the problem and I think I can provide some help, our exchange rate calculator has been problematic, some to our fault some to our third party provider. We need to create a test suite that allows us to improve the quality and coverage of our website. We have a staging environment at [http://tutorialsninja.com/demo](http://tutorialsninja.com/demo) and we should use it to run some automation tests. 
 > I believe we need to pick three tests to start with and the focus should be on what is critical for the website to run, would you be able to help us? Pro-tip, have a look at our third party provider documentation, [https://free.currencyconverterapi.com/](https://free.currencyconverterapi.com/) it might give you some testing ideas."
 
-### To start you need to be aware of some premises for this challenge ###:
+### To start you need to be aware of some premises for this challenge
 
-* You need to use singer.io, an open source tool, to create pipelines. You can download it here: https://www.singer.io
+* You need to use singer.io, an open source tool, to create pipelines. You can download it here: [singer.io](https://www.singer.io)
 * The CSV with the customer data is available here.
 * A working example for the web service is: http://api.postcodes.io/postcodes/N76RS
 * Postgres docker image: https://hub.docker.com/_/postgres 
