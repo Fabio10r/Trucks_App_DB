@@ -21,10 +21,10 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 
 A valid example of the expected outcome, delivered in a postgres table iis:
 
-| PostCode      | Name           | Phone     |
-|:-------------:|:--------------:|:---------:|
-|  N76RS        |   Friends’r Us | 123456790 |
-| SW46TA        |   StayLocal    | 78945613  |
+| PostCode      | Name           | Phone     |   Country  |   County  |   Long    | Lat       |HasSpecialCharacters|NoSpecialCharacters |
+|:-------------:|:--------------:|:---------:|:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|
+|  N76RS        |   Friends’r Us | 123456790 |  England   |   London  | -0.116805 |51.560414  |               True | Friendsr Us        |
+| SW46TA        |   StayLocal    | 78945613  |  England   |   London  | -0.12278  |51.472716  |              False | StayLocal          |
 
 
 
