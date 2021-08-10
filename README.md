@@ -20,16 +20,18 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 
 
 A valid example of the expected outcome, delivered in a postgres table iis:
-https://drive.google.com/file/d/1LXeFtXJxyP-v0EZX8hpMEtNwSN4wODb-/view?usp=sharing
+
+![Postcode_Bi](https://drive.google.com/file/d/1LXeFtXJxyP-v0EZX8hpMEtNwSN4wODb-/view?usp=sharing "Postcode_Bi")
 
 Once you are done please save all files, docker images and resources in your solution and commit the code and create a Pull Request so we can code review it. (see a more detailed explanation about the commit in the explanation below)”
 
-------------- | -------------
+---
 
 Now that the exercise has been explained, you can start working on it. We normally request for it to be uploaded into our git repository within 5 working days, but can be changed if you need more time to start. This task should take you no longer than 3 hours and needless to say should be totally completed by you, after all this is supposed to be a fun challenge! 
 We will provide you a git repository in bitbucket for the code to be uploaded. Please see the instructions below:
-Please sign up for an account on Bitbucket if you don't have one already. If you do, feel free to use your own login / profile. If you're not familiar with GIT, use the Sourcetree client to get started or visit http://git-scm.com for the official git client.
-Once you're done with your work, COMMIT and then PUSH (ie. send to bitbucket). The PUSH will notify us but it is important you let us know you are done. Only push when you're done, and push once. This is to avoid us reviewing an incomplete submission.
+
+* Please sign up for an account on Bitbucket if you don't have one already. If you do, feel free to use your own login / profile. If you're not familiar with GIT, use the Sourcetree client to get started or visit http://git-scm.com for the official git client.
+* Once you're done with your work, COMMIT and then PUSH (ie. send to bitbucket). The PUSH will notify us but it is important you let us know you are done. Only push when you're done, and push once. This is to avoid us reviewing an incomplete submission.
 
 ### We're here to help...
 Should you run into problems or have any questions please get in touch with Renato Oliveira - renato.oliveira@craftablesoftware.com
