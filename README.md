@@ -14,7 +14,7 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 ### To start you need to be aware of some premises for this challenge
 
 * You need to use singer.io, an open source tool, to create pipelines. You can download it here: [singer.io](https://www.singer.io)
-* The CSV with the customer data is available here.
+* The CSV with the customer data is available *[here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSyWCJtr4zXPapIzqowojAyB7fyyhBMH5YlLBc5E8xP7tjoBGIlLBIHrp6AvN12saGAsRNvCclIcIfd/pub?gid=0&single=true&output=csv)*
 * A working example for the web service is: http://api.postcodes.io/postcodes/N76RS
 * Postgres docker image: https://hub.docker.com/_/postgres 
 
