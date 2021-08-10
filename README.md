@@ -21,7 +21,13 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 
 A valid example of the expected outcome, delivered in a postgres table iis:
 
-![Postcode_Bi](https://drive.google.com/file/d/1LXeFtXJxyP-v0EZX8hpMEtNwSN4wODb-/view?usp=sharing "Postcode_Bi")
+| PostCode      | Name           | Phone     |
+|:-------------:|:--------------:|:---------:|
+|  N76RS        |   Friends’r Us | 123456790 |
+| SW46TA        |   StayLocal    | 78945613  |
+
+
+
 
 Once you are done please save all files, docker images and resources in your solution and commit the code and create a Pull Request so we can code review it. (see a more detailed explanation about the commit in the explanation below)”
 
