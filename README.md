@@ -2,14 +2,14 @@ We are excited you are taking the time to solve our technical assignment! | ![cr
 ------------- | -------------
 
 
+
 Let’s pretend you are starting your first day with us. After you settle in, your first task will be assigned. Both Joseph (Product Owner) and Ness (Technical Lead) are ready to give you more details on your first task.
 
-> Joseph - “Hi, I have your first task, excited?
+> Joseph - “Hi, I have your first task, excited? 
 
-> As you know, we have a website that sells multiple types of products, but more importantly we sell the vast majority of our products to customers in three countries United Kingdom, Portugal and United States. We have been having reports lately that the prices don't add up when you take into consideration the exchange rates, this has caused multiple issues in our finance department."
+> We need to create an ETL Transformation that allows us to correlate company information with the latitude and longitude coordinates so that our drivers can find the addresses of our customers more easily. We have a .csv file but we need to find the lat long based on the postcode. I also need to know if there are any special characters in the company name and to simplify display the company name without special characters to help our drivers. Finally we need to have the resulting data in a new database so that is accessible to the company that handles the drivers.”
 
-> Ness - “Ok, I understand the problem and I think I can provide some help, our exchange rate calculator has been problematic, some to our fault some to our third party provider. We need to create a test suite that allows us to improve the quality and coverage of our website. We have a staging environment at [http://tutorialsninja.com/demo](http://tutorialsninja.com/demo) and we should use it to run some automation tests. 
-> I believe we need to pick three tests to start with and the focus should be on what is critical for the website to run, would you be able to help us? Pro-tip, have a look at our third party provider documentation, [https://free.currencyconverterapi.com/](https://free.currencyconverterapi.com/) it might give you some testing ideas."
+> Ness - “Ok, I understand the request and I think we can provide some help. I’ve heard about https://postcodes.io/, and we can use it as a web service where we can type the postcode and we get the address details back, alongside the latitude and longitude. As for the special characters, we will exclude: ~, `, !, @, #,%,&,* and similar and  I think we can use some tools to identify and then transform the name of the company. For the specific need of having the information publicly available, I believe storing this data in Postgres database would be perfect as we would then be able to expose it to someone specific based on credentials. I would say we should do a proof of concept to confirm this can actually work”.
 
 ### To start you need to be aware of some premises for this challenge
 
