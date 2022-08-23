@@ -7,13 +7,14 @@ Let’s pretend you are starting your first day with us. After you settle in, yo
 
 > Joseph - “Hi, I have your first task, excited? 
 
-> We need to create an ETL Transformation that allows us to correlate company information with the latitude and longitude coordinates so that our drivers can find the addresses of our customers more easily. We have a .csv file but we need to find the lat long based on the postcode. I also need to know if there are any special characters in the company name and to simplify display the company name without special characters to help our drivers. Finally we need to have the resulting data in a new database so that is accessible to the company that handles the drivers.”
+> We need to create a Transformation that allows us to correlate company information with the latitude and longitude coordinates so that our drivers can find the addresses of our customers more easily. We have a .csv file but we need to find the lat long based on the postcode. I also need to know if there are any special characters in the company name and to simplify display the company name without special characters to help our drivers. Finally we need to have the resulting data in a new database so that is accessible to the company that handles the drivers.”
 
 > Ness - “Ok, I understand the request and I think we can provide some help. I’ve heard about https://postcodes.io/, and we can use it as a web service where we can type the postcode and we get the address details back, alongside the latitude and longitude. As for the special characters, we will exclude: ~, `, !, @, #,%,&,* and similar and  I think we can use some tools to identify and then transform the name of the company. For the specific need of having the information publicly available, I believe storing this data in Postgres database would be perfect as we would then be able to expose it to someone specific based on credentials. I would say we should do a proof of concept to confirm this can actually work”.
 
 ### To start you need to be aware of some premises for this challenge
 
-* You need to use singer.io, an open source tool, to create pipelines. You can download it here: [singer.io](https://www.singer.io)
+* Python and Pandas are our tools of choice.
+* Ideally you will be able to use singer.io, an open source tool, to create pipelines. You can download it here: [singer.io](https://www.singer.io)
 * The CSV with the customer data is available *[here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSyWCJtr4zXPapIzqowojAyB7fyyhBMH5YlLBc5E8xP7tjoBGIlLBIHrp6AvN12saGAsRNvCclIcIfd/pub?gid=0&single=true&output=csv)*
 * A working example for the web service is: http://api.postcodes.io/postcodes/N76RS
 * Postgres docker image: https://hub.docker.com/_/postgres 
