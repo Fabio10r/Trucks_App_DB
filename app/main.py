@@ -14,7 +14,7 @@ cursor = conn.cursor()
 #chars to replace
 char_to_replace = {'€': 'e',
                    '3': 'e'}
-                  
+                    
 id = 0
 
 #Define schema for DataFrame
@@ -32,6 +32,12 @@ id = 0
         'noSpecialCharacters': {'type': 'string'}
     }
 } """
+
+#create DB
+cursor.execute("SELECT 1 FROM pg_catalog.pg_database WHERE datname = 'craftable'")
+exists = cursor.fetchone()
+if not exists:
+    cursor.execute('CREATE DATABASE craftable')
 
 #Read csv PostCode column to DataFrame
 df = pd.read_csv("customer_list.csv")
